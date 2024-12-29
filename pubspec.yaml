@@ -1,0 +1,45 @@
+name: flutter_application_5
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.9.0
+  geolocator: ^13.0.1
+  permission_handler: ^11.3.1
+  image_picker: ^0.8.4+10
+  path_provider: ^2.0.8
+  shared_preferences: ^2.0.11
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  hive_generator: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/zamok.jpg
+    - assets/zamok1.jpg
+    - assets/kakancha.jpg
+    - assets/kalancha1.jpg
+    - assets/relig.jpg
+    - assets/relig1.jpg
+    - assets/stela.jpg
+    - assets/stela1.jpg
+    - assets/teatr.jpg
+    - assets/teatr1.jpg
+    - assets/zamok.jpg
+    - assets/zamok1.jpg
+    - assets/ozh.jpg
+    - assets/ozh1.jpg
+    - assets/icn.png
+
